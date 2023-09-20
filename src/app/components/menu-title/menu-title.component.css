@@ -1,0 +1,10 @@
+.container__menu-title {
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.container__menu-title > h1 {
+    padding: 1rem 2rem;
+    font-size: 9rem;
+    text-align: center;
+}
