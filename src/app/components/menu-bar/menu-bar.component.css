@@ -1,0 +1,21 @@
+
+.container__menu-bar {
+    padding: 2rem;
+    margin-left: 3rem;
+}
+.container__menu-bar-ol {
+    display: flex;
+    gap: 2rem;
+}
+.container__menu-bar-ol > li {
+    list-style: none;
+    opacity: 60%;
+    transition: opacity 0.5s, transform 0.5s;
+}
+.container__menu-bar-ol > li:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+.container__menu-bar-ol > li > a {
+    text-decoration: none;
+}

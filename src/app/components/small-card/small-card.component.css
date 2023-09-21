@@ -1,7 +1,11 @@
 .container__small-card {
-    display: flex;
     gap: 1rem;
     align-items: center;
+}
+.container__small-card-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 .small-card__title > h2 {
     font-size: 1.3rem;
@@ -9,4 +13,8 @@
 }
 .container__link {
     text-decoration: none;
+}
+.container__small-card-line > hr {
+    margin: 1rem 0;
+    opacity: 30%;
 }

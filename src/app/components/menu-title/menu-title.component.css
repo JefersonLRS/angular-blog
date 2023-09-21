@@ -1,6 +1,9 @@
 .container__menu-title {
-    margin-top: 1.2rem;
     margin-bottom: .5rem;
+}
+
+.container__menu-title > hr {
+    opacity: 30%;
 }
 
 .container__menu-title > h1 {
