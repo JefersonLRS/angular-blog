@@ -1,19 +1,24 @@
 <div class="container__menu-bar">
+    <ol class="container__menu-bar-ol-logo">
+        <li [routerLink]="['']" fragment="home">
+            <a  class="container__menu-bar-li-logo" href="#home"><img src="../../../assets/images/jeflrs2.png" alt=""></a>
+        </li>
+    </ol>
     <ol class="container__menu-bar-ol">
-        <li>
+        <li class="container__menu-bar-li">
             <a href="https://www.linkedin.com/in/contato-jeferson-luis/" target="_blank">LinkedIn</a>
         </li>
-        <li><span>|</span></li>
-        <li>
+        <li class="container__menu-bar-li"><span>|</span></li>
+        <li class="container__menu-bar-li">
             <a href="https://github.com/JefersonLRS " target="_blank">GitHub</a>
         </li>
-        <li><span>|</span></li>
-        <li>
-            <a href="https://www.behance.net/jefersonlus1" target="_blank">Behance</a>
+        <li class="container__menu-bar-li"><span>|</span></li>
+        <li class="container__menu-bar-li" [routerLink]="['home']" fragment="projects">
+            <a (click)="rolarParaAncora('#projects')" href="#projects" target= "_self">Projetos</a>
         </li>
-        <li><span>|</span></li>
-        <li>
-            <a href="mailto:contato.jefersonlrs@gmail.com/" target="_blank">Contato por e-mail</a>
+        <li class="container__menu-bar-li"><span>|</span></li>
+        <li class="container__menu-bar-li">
+            <a href="mailto:contato.jefersonlrs@gmail.com/" target="_blank">Contato</a>
         </li>
     </ol>
 </div>

@@ -1,9 +1,9 @@
-<a class="container__link" href="https://github.com/JefersonLRS/quiz-volei" target="_blank">
+<a class="container__link" [routerLink]="['content', id]">
     <div class="container__small-card">
         <div class="container__small-card-content">
             <div class="small-card__picture">
                 <img
-                    src="../../../assets/images/nubank.png"
+                    src={{pictureCover}}
                     alt="mainContent"
                     width="250px"
                     height="auto"
@@ -11,7 +11,7 @@
             </div>
         
             <div class="small-card__title">
-                <h2>Quiz de volei desenvolvido em ReactJS, clique aqui para acessar o repositório</h2>
+                <h2>{{cardTitle}}</h2>
             </div>
         </div>
         <div class="container__small-card-line">

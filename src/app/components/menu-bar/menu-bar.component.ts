@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private el: ElementRef) { }
 
   ngOnInit(): void {
   }
 
+  rolarParaAncora(anchorID: string): void {
+    const elemento = this.el.nativeElement.querySelector(anchorID);
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    }
+  }
 }

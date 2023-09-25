@@ -1,0 +1,111 @@
+.container__projects-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+    width: 100%;
+    background-color: #031220;
+}
+
+.projetcs__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: transparent;
+    margin-bottom: 6rem;
+}
+
+
+.projetcs__content-container > .row1 {
+    display: flex;
+    gap: 3rem;
+    background-color: transparent;
+}
+.projetcs__content-container > .row2 {
+    display: flex;
+    gap: 3rem;
+    background-color: transparent;
+    margin-bottom: 4rem;
+}
+.row1 > a {
+    background-color: transparent;
+    text-decoration: none;
+}
+.row2 > a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.projetcs__content-container > .row1 > a > .project-card > img {
+    height: 230px;
+    margin-top: 20px;
+    border-radius: 1rem;
+}
+.projetcs__content-container > .row2 > a > .project-card > img {
+    height: 230px;
+    margin-top: 20px;
+    border-radius: 1rem;
+}
+.projects__title{
+    background-color: transparent;
+}
+.projects__title > h2 >  span {
+    background-color: transparent;
+    color: #4cdfff;
+}
+.projects__title > h2 {
+    font-size: 3rem;
+    transform: matrix(.7, 0, 0, .9, 0, 0);
+    margin-bottom:4rem;
+    margin-top: 6rem;
+    background-color: transparent;
+}
+.project-card > p , h3 {
+    margin-top: 1rem;
+    width: 300px;
+    background-color: transparent;
+}
+
+.project-card > p {
+    opacity: 60%;
+    background-color: transparent;
+}
+
+.project-card {
+    background-color: transparent;
+}
+
+.project-card {
+    transition: 1s;
+}
+.project-card:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+hr {
+    opacity: 20%;
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.container__contact-button-title {
+    background-color: #009dc0;
+    transition: background-color .6s ease, transform 1.5s; /* Transição de 2 segundos */
+    width: 800px;
+    padding: 2rem 3rem;
+    margin: 1.5rem 0;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.project__contact-button {
+    background-color: transparent;
+}
+.container__contact-button-title:hover {
+    cursor: pointer;
+    background-color: #13d4ff;
+    transform: scale(1.05);
+}

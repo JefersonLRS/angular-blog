@@ -1,0 +1,9 @@
+.container__footer-main-content > p {
+    text-align: center;
+    width: 100%;
+    background-color: #031220;
+    padding: 2rem;
+}
+.container__footer-main-content {
+    margin-top: 5rem;
+}

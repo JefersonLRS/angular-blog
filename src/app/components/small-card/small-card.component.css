@@ -6,6 +6,15 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    transition: opacity 0.5s, transform 0.5s;
+}
+.container__small-card-content:hover {
+    transform: scale(1.02);
+    opacity: 100%;
+}
+.small-card__picture > img {
+    filter: brightness(1.1);
+    border-radius: .6rem;
 }
 .small-card__title > h2 {
     font-size: 1.3rem;

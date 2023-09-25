@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
+    background-color: #060a11;
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+html {
+    scroll-behavior: smooth; /* Adicione um comportamento suave de rolagem a toda a página */
 }
