@@ -4,7 +4,7 @@
     }
     .container__contact-button-title {
         width: 280px;
-        padding: 1.5rem 4rem;
+        padding: 1.5rem 2rem;
         margin: 0;
     }
     .projects__title > h2 {
@@ -13,5 +13,8 @@
     }
     .projetcs__content-container > .row2 {
         margin-bottom: 1rem;
+    }
+    .container__contact-button-title > img {
+        width: 20px;
     }
 }

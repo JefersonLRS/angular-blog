@@ -16,4 +16,12 @@
         margin: auto;
         margin-top: 2rem;
     }
+    .container__profile-social-media > a > img {
+        width: 60px;
+        z-index: 10;
+        background-color: transparent;
+        opacity: 80%;
+        margin-bottom: -1.5rem;
+        transition: opacity 0.5s, transform 0.5s;
+    }
 }

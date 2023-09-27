@@ -53,3 +53,8 @@
     background-color: #13d4ff;
     transform: scale(1.05);
 }
+
+.container__menu-title-button > img {
+    background-color: transparent;
+    margin-right: 1rem;
+}

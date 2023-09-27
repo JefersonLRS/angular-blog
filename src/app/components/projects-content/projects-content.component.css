@@ -17,6 +17,10 @@
     margin-bottom: 6rem;
 }
 
+.container__contact-button-title > img {
+    background-color: transparent;
+    margin-right: 1rem;
+}
 
 .projetcs__content-container > .row1 {
     display: flex;

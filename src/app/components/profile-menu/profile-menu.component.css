@@ -23,3 +23,22 @@
     margin-left: -3.3rem;
     transform: matrix(.7, 0, 0, .9, 0, 0);
 }
+.container__profile-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container__profile-social-media > a > img {
+    width: 80px;
+    z-index: 10;
+    background-color: transparent;
+    opacity: 80%;
+    margin-bottom: -2rem;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.container__profile-social-media > a > img:hover {
+    opacity: 100%;
+    transform: scale(1.09);
+}
