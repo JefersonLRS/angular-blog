@@ -85,12 +85,6 @@
     cursor: pointer;
 }
 
-hr {
-    opacity: 20%;
-    width: 100%;
-    margin: auto;
-    margin-top: 4rem;
-}
 .container__contact-button-title {
     background-color: #009dc0;
     transition: background-color .6s ease, transform 1.5s; /* Transição de 2 segundos */

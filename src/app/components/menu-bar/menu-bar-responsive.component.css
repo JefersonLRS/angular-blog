@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+    
+    .container__menu-bar-ol {
+        display: none;
+    }
+    .container__menu-bar-ol-logo {
+        margin: 0;
+        padding: 0;
+    }
+    .menu-bar__sandwich-button {
+        display: block;
+    }
+    .menu-bar__sandwich-button > button{
+        border: none;
+        cursor: pointer;
+    }
+    .menu-bar__sandwich-button > button > img {
+        width: 2.8rem;
+    }
+    .menu-bar__mobile > .container__menu-bar-ol {
+        gap: 0;
+    }
+    .menu-bar__mobile ol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    .container__menu-bar-li > hr{
+        margin: 2rem 0;
+    }   
+    .container__menu-bar-li > .first {
+        margin-top: 0;
+    }
+    .open {
+        display: block;
+    }
+}

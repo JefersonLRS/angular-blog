@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) {
+    .row1, .row2 {
+        flex-direction: column;
+    }
+    .container__contact-button-title {
+        width: 280px;
+        padding: 1.5rem 4rem;
+        margin: 0;
+    }
+    .projects__title > h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .projetcs__content-container > .row2 {
+        margin-bottom: 1rem;
+    }
+}

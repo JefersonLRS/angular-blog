@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px) {
+    .container__menu-title {
+        margin-top: 6rem;
+    }
+    .container__menu-title-content > h1 {
+        font-size: 40px;
+    }
+    .container__menu-title-content > h2 {
+        font-size: 50px;
+    }
+    .container__menu-title-button {
+        width: 160px;
+        font-size: 10px;
+    }
+    .container__menu-title > hr {
+        width: 70%;
+    }
+}

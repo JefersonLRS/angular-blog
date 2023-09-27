@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+
+    .certificates-content-title > hr {
+        width: 300px;
+    }
+    .certificates-content-title > h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .certificate__post {
+        flex-direction: column;
+    }
+    .certificate__post-text {
+        width: 300px;
+    }
+    .post-text__description {
+        text-align: start;
+    }
+    .certificate__post-image > img {
+        width: 300px;
+    }
+}

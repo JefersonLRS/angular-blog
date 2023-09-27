@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-
 }
 
 .certificates-content-title > hr {
-    width: 600px;
+    width: 80%;
     opacity: .2;
+    margin: auto;
 }
 
 .certificates-content-title > h2 {
